@@ -1,0 +1,15 @@
+@@ -0,0 +1,14 @@
+user = int(input("Enter the number of hours parked: "))
+
+if user == 2:
+    print("Your parking charge is 50 Rs")
+
+elif user > 2:
+    print("Now Your Parking Charge is:", ((user - 2) * 20) + 50)
+    
+elif user <2 and user >0:
+    print("The Minimum Charge is Parking is: 50 rs even you park for less than 2 hour ")
+    
+    
+else:
+    print("Minimum charge applies only after 30 minutes hours.")
